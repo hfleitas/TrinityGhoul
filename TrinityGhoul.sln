@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "TrinityGhoul", "TrinityGhoul\TrinityGhoul.rptproj", "{22588689-A589-4009-B690-57AC4EA8A92A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Debug|Default.ActiveCfg = Debug
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Debug|Default.Build.0 = Debug
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Debug|Default.Deploy.0 = Debug
+		{22588689-A589-4009-B690-57AC4EA8A92A}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{22588689-A589-4009-B690-57AC4EA8A92A}.DebugLocal|Default.Build.0 = DebugLocal
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Release|Default.ActiveCfg = Release
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Release|Default.Build.0 = Release
+		{22588689-A589-4009-B690-57AC4EA8A92A}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC80F8E2-9303-4ED7-A17D-E765005A0B71}
+	EndGlobalSection
+EndGlobal
