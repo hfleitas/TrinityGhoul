@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "TrinityGhoul", "TrinityGhoul\TrinityGhoul.rptproj", "{22588689-A589-4009-B690-57AC4EA8A92A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4833EA75-9BF8-472E-9754-99CB596255F8}"
+	ProjectSection(SolutionItems) = preProject
+		SQLServerAuditInstance.sql = SQLServerAuditInstance.sql
+		uspAuditSQLDatabaseAccess.sql = uspAuditSQLDatabaseAccess.sql
+		uspAuditSQLDatabaseObjectAccess.sql = uspAuditSQLDatabaseObjectAccess.sql
+		uspAuditSQLServerAccess.sql = uspAuditSQLServerAccess.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Default = Debug|Default

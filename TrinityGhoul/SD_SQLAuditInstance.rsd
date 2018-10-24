@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>Localhost</DataSourceReference>
+      <CommandText>select 'localhost' as Instance
+union
+select isnull(LG, SQLServer) as Instance 
+from SQLServerAuditInstance 
+where AuditDeployed = 1 
+group by isnull(LG, SQLServer)
+</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Instance">
+        <DataField>Instance</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

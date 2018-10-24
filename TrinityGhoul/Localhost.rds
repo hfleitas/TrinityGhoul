@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Localhost">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=localhost;Initial Catalog=TrinityGhoul;Encrypt=True;TrustServerCertificate=True;Application Name=PowerBIReportServer;ApplicationIntent=ReadOnly</ConnectString>
+    <IntegratedSecurity>true</IntegratedSecurity>
+  </ConnectionProperties>
+  <DataSourceID>477f7b4a-89fc-4296-ba59-513f73a80f5b</DataSourceID>
+</RptDataSource>
